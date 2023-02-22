@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationMenu } from '../components';
+import NavigationMenu from '../components/NavigationMenu/NavigationMenu';
 interface MyComponentProps {
   children: React.ReactNode;
 }
