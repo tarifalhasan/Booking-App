@@ -17,6 +17,12 @@
     "declaration": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "tailwind.config.cjs"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "include": [
+    "src/**/*",
+    "vercel/**/*",
+    "tailwind.config.cjs",
+    "path/to/declaration/files"
+  ]
 }
