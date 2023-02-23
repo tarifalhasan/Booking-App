@@ -1,7 +1,8 @@
 import React from 'react';
 import NavigationMenu from '../components/NavigationMenu/NavigationMenu';
+
 interface MyComponentProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Layout: React.FC<MyComponentProps> = ({ children }) => {
