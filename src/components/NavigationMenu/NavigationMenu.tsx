@@ -1,3 +1,4 @@
+import React, { FC } from 'react';
 import {
   createStyles,
   Header,
@@ -132,7 +133,7 @@ const mockdata = [
   },
 ];
 
-const NavigationMenu = () => {
+const NavigationMenu: React.FC = () => {
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
   const [linksOpened, { toggle: toggleLinks }] = useDisclosure(false);
